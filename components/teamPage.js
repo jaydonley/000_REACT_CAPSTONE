@@ -21,7 +21,7 @@ class teamPage extends Component {
 				<div class="team-member">
 					<div class="member-photo">
 						
-						<img class="img-fluid" src="images/team/AlexisProfilePicture" alt="Meghna">
+						<img class="img-fluid" src="images/team/AlexisProfilePicture" alt="Meghna"></img>
 						
 						 <div class="mask">
 							<ul class="list-inline">
@@ -49,7 +49,7 @@ class teamPage extends Component {
 				<div class="team-member">
 					<div class="member-photo">
 						
-						<img class="img-fluid" src="images/team/teamSectionProfilePicture" alt="Meghna">
+						<img class="img-fluid" src="images/team/teamSectionProfilePicture" alt="Meghna"></img>
 						
 
 						
@@ -75,7 +75,7 @@ class teamPage extends Component {
 			<div class="col-lg-4 col-md-6 wow fadeIn" data-wow-duration="500ms" data-wow-delay="400ms">
 				<div class="team-member">
 					<div class="member-photo">
-						<img class="img-fluid" src="images/team/team-3" alt="Meghna">
+						<img class="img-fluid" src="images/team/team-3" alt="Meghna"></img>
 
 						<div class="mask">
 							 <ul class="list-inline">
@@ -98,7 +98,8 @@ class teamPage extends Component {
 		</div> 
 	</div> 
 </section> 
-</div>
+		
+
 
             );
     }

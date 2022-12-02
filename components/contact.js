@@ -1,10 +1,38 @@
 import React, { Component } from 'react';
  
-class Header extends Component {
+class Contact extends Component {
     render() {
         return (
 
+
+
 <div>
+<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
+				<h3>Contact Details</h3>
+				<p>We would love the oppertunity to work with you on designing and implenting your next website or web-based service. We offer a proven track record with the customer testimonials and the service awards that one should expect from a business partner.</p>
+				<div class="contact-details">
+					<div class="con-info clearfix">
+						<i class="tf-map-pin"></i>
+						<span> 4901 Hunt Rd #200, Blue Ash, Ohio, USA</span>
+					</div>
+
+					<div class="con-info clearfix">
+						<i class="tf-ion-ios-telephone-outline"></i>
+						<span>Phone: (513) 881-2901</span>
+					</div>
+
+					<div class="con-info clearfix">
+						<i class="tf-ion-iphone"></i>
+						<span>Fax: 888-555-5556</span>
+					</div>
+
+					<div class="con-info clearfix">
+						<i class="tf-ion-ios-email-outline"></i>
+						<span>Email:info@kableacademy.com</span>
+					</div>
+				</div>
+			</div>
+
 
 <div class="container-fluid px-5 my-5">
 	<div class="row justify-content-center">
@@ -81,4 +109,4 @@ class Header extends Component {
             );
     }
 }
-export default Header;
+export default Contact;
