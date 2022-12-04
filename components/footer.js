@@ -5,7 +5,7 @@ class Footer extends Component {
         return (
 		
 	
-	
+	<div>
 	
 	<script src="plugins/jquery/jquery.min.js"></script>
 	
@@ -17,9 +17,7 @@ class Footer extends Component {
 	<script src="plugins/google-map/gmap.js"></script>
 	<script src="plugins/wow/wow.min.js"></script>
 	<script src="js/script.js"></script>
-	
-	</body>
-</html>
+	</div>
 
 
 );
