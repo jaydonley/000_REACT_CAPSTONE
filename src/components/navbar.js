@@ -10,9 +10,10 @@ class navbar extends Component {
     <div class="navbar-header w-100">
       <nav class="navbar navbar-expand-lg navbar-dark px-0">
         <a class="navbar-brand logo" href="index.html">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Seal_of_the_City_of_Cincinnati_%28Ohio%29.png/1200px-Seal_of_the_City_of_Cincinnati_%28Ohio%29.png"  id="logoSize"  alt="Seal of Cincinnati" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Seal_of_the_City_of_Cincinnati_%28Ohio%29.png/1200px-Seal_of_the_City_of_Cincinnati_%28Ohio%29.png"  id="logoSize"  alt="Seal of Cincinnati" height={100}/>
+          </a>
           
-        </a>
+          
         
   
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01"
@@ -20,7 +21,7 @@ class navbar extends Component {
           <span class="navbar-toggler-icon"></span>
         </button>
   
-        <div class="collapse navbar-collapse" id="navbar01">
+        <div class="collapse navbar-collapse" id="navbar01" color='black'>
           <ul class="navbar-nav navigation-menu ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="#home">Home</a>
