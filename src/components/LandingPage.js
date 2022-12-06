@@ -5,12 +5,12 @@ class LandingPage extends Component {
         return (
 		
 
-<section class="hero-area overlay" style="background-image: url('https://media.istockphoto.com/id/1260306591/photo/cincinnati-downtown.jpg?b=1&s=170667a&w=0&k=20&c=xAHCyo_PnGFs7pBHTs47TlOeIJr-zLW7s5w1PAjKsKA=');">
+<section className="hero-area overlay" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1590985607645-75e6570fa4aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2luY2lubmF0aSUyMG9oaW98ZW58MHx8MHx8&w=1000&q=80")', height: "800px", backgroundRepeat: "no-repeat"}}>
  	
-     <div class="block">
-         <div class="video-button mb-5">
-             <a class="popup-video" href="https://youtu.be/8SHPzcx596A">
-                 <i class="tf-ion-play"></i>
+     <div className="block">
+         <div className="video-button mb-5">
+             <a className="popup-video" href="https://youtu.be/8SHPzcx596A">
+                 <i className="tf-ion-play"></i>
              </a>
          </div>
          <h1>Cincinnati</h1>
@@ -28,3 +28,14 @@ class LandingPage extends Component {
     }
 }
 export default LandingPage;
+
+// import React, { Component } from 'react'
+
+//  class LandingPage extends Component {
+//   render() {
+//     return (
+//       <div>LandingPage</div>
+//     )
+//   }
+// }
+// export default LandingPage;

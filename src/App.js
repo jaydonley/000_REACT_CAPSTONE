@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 
 import about from './components/about';
 import callToAction from './components/callToAction';
@@ -8,8 +8,8 @@ import cultureHistory from './components/cultureHistory';
 import diverseDynamic from './components/diverseDynamic';
 import footer from './components/footer';
 import header from './components/header';
-import LandingPage from './components/homeLanding';
-import navbar from './components/navbar';
+import LandingPage from './components/LandingPage';
+import Navbar from './components/Navbar';
 import portfolio from './components/portfolio';
 import socialLinksAtBottom from './components/socialLinksAtBottom';
 import teamPage from './components/teamPage';
@@ -25,9 +25,10 @@ class App extends Component {
     return (
       <div className='App'>
       <Router>
-        <navbar/>
-        {/* <Navbar /> */}
+        
+        
         <Route exact path= '/' component={LandingPage} />
+        <Navbar/>
         {/* <Route path= '/Attractions' component={attractions} /> */}
         <Route path= '/CultureHistory' component={cultureHistory} />
         {/* <Route path= '/Team' component={team} /> */}
