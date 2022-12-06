@@ -9,7 +9,7 @@ class diverseAndDynamic extends Component {
 	<div class="container-fluid p-0">
 		<div class="row no-gutters align-items-center">
 			<div class="col-lg-6">
-				<img class="img-fluid" src="https://cdn2.cincinnatimagazine.com/wp-content/uploads/sites/5/2020/06/images_51f681fb6b0365262c000007_1106276_1106276_2-1024x682.jpg" alt="">
+				<img class="img-fluid" src="https://cdn2.cincinnatimagazine.com/wp-content/uploads/sites/5/2020/06/images_51f681fb6b0365262c000007_1106276_1106276_2-1024x682.jpg" alt=""/>
 			</div>
 			<div class="col-lg-6">
 				<div class="content-block">
@@ -45,8 +45,8 @@ class diverseAndDynamic extends Component {
 			</div>
 		</div>
 	</div>
-</section>
 
+</section>
 
 
             );

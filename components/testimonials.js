@@ -71,7 +71,7 @@ class testimonials extends Component {
     </div>
     </div>
     </div>
-        )
+        );
     }
 }
 export default testimonials;

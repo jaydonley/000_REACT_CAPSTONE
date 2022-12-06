@@ -1,6 +1,14 @@
 {
   "dependencies": {
+    "body-parser": "^1.20.1",
     "bootstrap": "^5.2.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "flash": "^1.1.0",
+    "flass": "^0.0.2",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.7.5",
+    "node.js": "^0.0.1-security",
     "react-bootstrap": "^2.6.0"
   }
 }

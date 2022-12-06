@@ -78,7 +78,7 @@ class Contact extends Component {
 					<div class="text-center mb-3">
 					  <div class="fw-bolder">Form submission successful!</div>
 					  <p>To activate this form, sign up at</p>
-					  <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+					  <a href="#"></a>
 					</div>
 				  </div>
   

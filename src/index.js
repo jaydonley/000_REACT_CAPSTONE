@@ -1,17 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const express = require('express')
+const app = express()
+const mongoose = require("mongoose")
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+var connectionUrl = ""
+mongoose.connect(connectionUrl, {useNewUrlParser: true, useUnifiedTopology: true}, (err) => {
+    if (err) throw err
+    console.log("Connected")
+})
+
+app.use(express.urlencoded({extended: true}))
+app.set("view engine", "ejs")
+
+app.get("/home", (req, res)=>{
+    res.render("index")
+})
+
+app.post("/api/ticket", (req, res)=>{
+    const SaveTicket = new TicketModel(req.body)
+    SaveTicket.save((error, savedTicket)=>{
+        if(error) throw error
+        res.json(savedTicket)
+    })
+})
+
+app.listen(3000, ()=>{
+    console.log("listening to port 3000")
+})
