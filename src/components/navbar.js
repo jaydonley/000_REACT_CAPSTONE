@@ -16,14 +16,14 @@ class navbar extends Component {
           
         
   
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01"
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01" 
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
   
         <div class="collapse navbar-collapse" id="navbar01" color='black'>
           <ul class="navbar-nav navigation-menu ml-auto">
-            <li class="nav-item">
+            <li class="nav-item" >
               <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
@@ -38,7 +38,7 @@ class navbar extends Component {
             <li class="nav-item">
               <a class="nav-link" href="#contact-us">Contact</a>
             </li>
-        <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link" href="#our-team">Team</a>
             </li>
           </ul>

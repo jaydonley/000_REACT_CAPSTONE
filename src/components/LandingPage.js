@@ -5,7 +5,7 @@ class LandingPage extends Component {
         return (
 		
 
-<section className="hero-area overlay" style={{backgroundImage: 'url("https://media.istockphoto.com/id/1260306591/photo/cincinnati-downtown.jpg?b=1&s=170667a&w=0&k=20&c=xAHCyo_PnGFs7pBHTs47TlOeIJr-zLW7s5w1PAjKsKA=")', height: "fill",}}>
+<section className="hero-area overlay" style={{backgroundImage: 'url("https://media.istockphoto.com/id/1260306591/photo/cincinnati-downtown.jpg?b=1&s=170667a&w=0&k=20&c=xAHCyo_PnGFs7pBHTs47TlOeIJr-zLW7s5w1PAjKsKA=")',backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100vw', height: '100vh'}}>
  	
      <div className="block">
          <div className="video-button mb-5">
@@ -120,6 +120,47 @@ class LandingPage extends Component {
 	</div>
 </section>
 </div>
+
+<section class="call-to-action section-sm bg-1 " style={{backgroundImage: 'url("https://images.unsplash.com/photo-1501817931860-6b22e34ca1a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2089&q=80")'}}>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2 id="homePageBottomSection">Come and visit. Perhaps stay awhile...</h2>
+				<p id="homeBottomP">Start off your day with a stop on the doughnut trail or brunching on the local favorite sausage and oat dish, goetta. Then, there are rock climbing gyms, Top Golf, go-karting tracks, and public parks with biking and hiking trails—endless ways to fill your day with a uniquely Cincy excursion. In the evening, dine at one of our renowned restaurants, or sample locally brewed beer and locally distilled bourbon and spirits. 
+
+					Whether you’re traveling with little ones or big kids–you’re sure to create unforgettable family memories in Cincy.</p>
+				<a href="contact.html" class="btn btn-main">Take a tour with us</a>
+			</div>
+		</div> 
+	</div>
+</section>
+
+
+<footer id="footer" class="bg-one">
+	<div class="container">
+		<div class="row wow fadeInUp" data-wow-duration="500ms">
+			<div class="col-lg-12">
+
+				
+				<div class="social-icon">
+					<ul class="list-inline">
+						<li class="list-inline-item"><a href="https://www.facebook.com/places/108303715857333/" target="_blank" ><i class="tf-ion-social-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/search?lang=en&q=%23cincinnati" target="_blank" ><i class="tf-ion-social-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://youtu.be/nm826jQsE0Q" target="_blank" ><i class="tf-ion-social-youtube"></i></a></li>
+						<li class="list-inline-item"><a href="https://dribbble.com/tags/cincinnati" target="_blank" ><i class="tf-ion-social-dribbble-outline"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.pinterest.com/trishbreedlove/cincinnati-ohio/" target="_blank" ><i class="tf-ion-social-pinterest-outline"></i></a></li>
+					</ul>
+				</div>
+				
+
+				
+
+			</div> 
+		</div> 
+	</div> 
+</footer> 
 
 
 
