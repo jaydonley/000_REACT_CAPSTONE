@@ -55,7 +55,15 @@
 .diversityTextBlock{
   border-bottom: 5px solid antiquewhite;
   border-top: 5px solid antiquewhite;
+  margin-right: 2%;
 }
+
+.dd3block{
+  margin: 7%;
+}
+
+
+
 .dndPhoto{
   
   border-right: 5px solid antiquewhite;

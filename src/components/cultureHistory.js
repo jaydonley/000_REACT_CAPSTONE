@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
  
-class cultureHistory extends Component {
+class CultureHistory extends Component {
     render() {
         return (
 
@@ -77,4 +77,4 @@ class cultureHistory extends Component {
             );
     }
 }
-export default cultureHistory;
+export default CultureHistory;

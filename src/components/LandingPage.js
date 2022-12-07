@@ -86,9 +86,9 @@ class LandingPage extends Component {
 				<img class="img-fluid dndPhoto" src="https://cdn2.cincinnatimagazine.com/wp-content/uploads/sites/5/2020/06/images_51f681fb6b0365262c000007_1106276_1106276_2-1024x682.jpg" alt=""/>
 			</div>
 			<div class="col-lg-6">
-				<div class="content-block">
+				<div class="content-block dd3block">
 					<h2 style={{color: 'gray'}}>Diverse & Dynamic</h2>
-					<p  style={{color: 'lightgray', paddingTop: '2%'}}>The City of Cincinnati is home to 52 diverse, vibrant neighborhoods, each with its own charm and story. Breathtaking views, historic houses, pastoral-like peacefulness, eccentric arts, and so much more – Cincinnati neighborhoods really do have something for everyone.</p>
+					<p  style={{color: 'lightgray', padding: '2%'}}>The City of Cincinnati is home to 52 diverse, vibrant neighborhoods, each with its own charm and story. Breathtaking views, historic houses, pastoral-like peacefulness, eccentric arts, and so much more – Cincinnati neighborhoods really do have something for everyone.</p>
 					
 					<div class="row">
 						<div class="col-md-6">

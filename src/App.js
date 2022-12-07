@@ -12,7 +12,7 @@ import LandingPage from './components/LandingPage';
 import Navbar from './components/Navbar';
 import portfolio from './components/portfolio';
 import socialLinksAtBottom from './components/socialLinksAtBottom';
-import teamPage from './components/teamPage';
+import TeamPage from './components/TeamPage';
 import testimonials from './components/testimonials';
 
 import './App.css';
@@ -28,11 +28,10 @@ class App extends Component {
         
         <Navbar/>
         <Route exact path= '/' component={LandingPage} />
-        
-        {/* <Route path= '/Attractions' component={attractions} /> */}
-        <Route path= '/CultureHistory' component={cultureHistory} />
-        {/* <Route path= '/Team' component={team} /> */}
+        <Route path= '/teamPage' component={TeamPage} />
+        <Route path= '/cultureHistory' component={cultureHistory} />
         <Route path= '/Contact' component={contact} />
+        
         <footer/>
        </Router>
        </div>
