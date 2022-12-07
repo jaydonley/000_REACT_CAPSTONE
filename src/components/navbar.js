@@ -5,7 +5,7 @@ class navbar extends Component {
         return (
 
 
-<header id="navigation" class="navigation">
+<header id="navigation" class="navigation sticky">
   <div class="container">
     <div class="navbar-header w-100">
       <nav class="navbar navbar-expand-lg navbar-dark px-0">
@@ -21,25 +21,25 @@ class navbar extends Component {
           <span class="navbar-toggler-icon"></span>
         </button>
   
-        <div class="collapse navbar-collapse" id="navbar01" color='black'>
+        <div class="collapse navbar-collapse" id="navbar01">
           <ul class="navbar-nav navigation-menu ml-auto">
             <li class="nav-item" >
-              <a class="nav-link" href="#home">Home</a>
+              <a style={{color: '#262629'}} class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">Attractions</a>
+              <a style={{color: '#262629'}} class="nav-link" href="#about">Attractions</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services">Culture & History</a>
+              <a style={{color: '#262629'}} class="nav-link" href="#services">Culture & History</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Sports</a>
+              <a style={{color: '#262629'}} class="nav-link" href="#portfolio">Attractions</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact-us">Contact</a>
+              <a style={{color: '#262629'}} class="nav-link" href="#contact-us">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#our-team">Team</a>
+              <a style={{color: '#262629'}} class="nav-link" href="#our-team">Team</a>
             </li>
           </ul>
         </div>
