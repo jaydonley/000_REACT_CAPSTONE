@@ -5,7 +5,7 @@ class LandingPage extends Component {
         return (
 		
 
-<section className="hero-area overlay" style={{backgroundImage: 'url("https://media.istockphoto.com/id/1260306591/photo/cincinnati-downtown.jpg?b=1&s=170667a&w=0&k=20&c=xAHCyo_PnGFs7pBHTs47TlOeIJr-zLW7s5w1PAjKsKA=")',backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100vw', height: '100vh'}}>
+<section className="hero-area overlay" style={{backgroundImage: 'url("https://media.istockphoto.com/id/1260306591/photo/cincinnati-downtown.jpg?b=1&s=170667a&w=0&k=20&c=xAHCyo_PnGFs7pBHTs47TlOeIJr-zLW7s5w1PAjKsKA=")',backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100vw', height: '100vh', position: ''}}>
  	
      <div className="block">
          <div className="video-button mb-5">
@@ -88,7 +88,7 @@ class LandingPage extends Component {
 			<div class="col-lg-6">
 				<div class="content-block">
 					<h2 style={{color: 'gray'}}>Diverse & Dynamic</h2>
-					<p  style={{color: 'lightgray'}}>The City of Cincinnati is home to 52 diverse, vibrant neighborhoods, each with its own charm and story. Breathtaking views, historic houses, pastoral-like peacefulness, eccentric arts, and so much more – Cincinnati neighborhoods really do have something for everyone.</p>
+					<p  style={{color: 'lightgray', paddingTop: '2%'}}>The City of Cincinnati is home to 52 diverse, vibrant neighborhoods, each with its own charm and story. Breathtaking views, historic houses, pastoral-like peacefulness, eccentric arts, and so much more – Cincinnati neighborhoods really do have something for everyone.</p>
 					
 					<div class="row">
 						<div class="col-md-6">
