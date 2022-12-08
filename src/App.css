@@ -102,7 +102,7 @@
   background-image: url(https://images.unsplash.com/photo-1561910733-6b08673f6b20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: 5px solid gray;
+  border-top: 5px solid antiquewhite;
   padding: 5%;
 }
 
@@ -137,4 +137,27 @@
 #tourButton{
   text-shadow: 0px 0px 15px black;
   color: lightgray;
+}
+
+#mainContact{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.848),rgba(255, 255, 255, 0.55)), url(https://images.unsplash.com/photo-1587586291914-bdbe84ec1416?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: -40px;
+
+}
+
+.contactDetails{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.contact-form{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#contact-submit{
+  font-size: 20px;
+  margin: 1rem;
 }

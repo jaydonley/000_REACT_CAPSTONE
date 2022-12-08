@@ -2,30 +2,33 @@ import React, { Component } from 'react';
  
 class Contact extends Component {
     render() {
-        return (<div>
-<h1>Contact Us</h1>
-<div class="contact-info col-lg-6 " >
-				<h3>Contact Details</h3>
-				<p>We would love the oppertunity to work with you on designing and implenting your next website or web-based service. We offer a proven track record with the customer testimonials and the service awards that one should expect from a business partner.</p>
+        return (<div id='mainContact'>
+
+<h1 style={{paddingTop: '5%'}}>Contact Us</h1>
+<div class="border"></div>
+
+<div class="contact-info col-lg-6 contactDetails" >
+				<h3 style={{margin: '2%', paddingTop: '5%'}}>Contact Details</h3>
+				<p style={{margin: '4%', fontSize: '20px'}}>We would love the oppertunity to work with you on designing and implenting your next website or web-based service. We offer a proven track record with the customer testimonials and the service awards that one should expect from a professional business partner.</p>
 				<div class="contact-details">
 					<div class="con-info clearfix">
 						
-						<span> 4901 Hunt Rd #200, Blue Ash, Ohio, USA</span>
+						<span style={{fontSize: '17px'}}> 4901 Hunt Rd #200, Blue Ash, Ohio, USA</span>
 					</div>
 
 					<div class="con-info clearfix">
 						<i class="tf-ion-ios-telephone-outline"></i>
-						<span>Phone: (513) 881-2901</span>
+						<span style={{fontSize: '17px'}}>Phone: (513) 881-2901</span>
 					</div>
 
 					<div class="con-info clearfix">
 						<i class="tf-ion-iphone"></i>
-						<span>Fax: 888-555-5556</span>
+						<span style={{fontSize: '17px'}}>Fax: 888-555-5556</span>
 					</div>
 
 					<div class="con-info clearfix">
 						<i class="tf-ion-ios-email-outline"></i>
-						<span>Email:info@kableacademy.com</span>
+						<span style={{fontSize: '17px'}}>Email:info@kableacademy.com</span>
 					</div>
 				</div>
 			</div>
