@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 
 import about from './components/about';
 import callToAction from './components/callToAction';
-import contact from './components/contact';
+import Contact from './components/Contact';
 import cultureHistory from './components/cultureHistory';
 import diverseDynamic from './components/diverseDynamic';
 import footer from './components/footer';
@@ -30,7 +30,7 @@ class App extends Component {
         <Route exact path= '/' component={LandingPage} />
         <Route path= '/teamPage' component={TeamPage} />
         <Route path= '/cultureHistory' component={cultureHistory} />
-        <Route path= '/Contact' component={contact} />
+        <Route path= '/Contact' component={Contact} />
         
         <footer/>
        </Router>

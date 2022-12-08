@@ -16,8 +16,8 @@ class LandingPage extends Component {
          <h1 className='mainCin' style={{color: '#262629',  fontSize: '70px'}}>Cincinnati</h1>
         <h2 style={{color: '#262629', fontSize: '50px'}}>Where You Belong</h2>
         <div style={{marginTop: '5%', marginLeft: '10%', marginRight: '10%'}}>
-         <p  style={{color: 'white', fontSize: '20px',}}>There’s something inviting about the Cincy Region. Here, Midwest friendliness meets Southern charm. This is where a vibrant urban setting gives way to green spaces and waterways. You can sample our world-famous Cincinnati chili or indulge in innovative, buzzworthy local cuisine. Marvel at cutting-edge street art or travel Northern Kentucky's bourbon trail. Discover a region that reveres history yet pursues constant reinvention. Cincy Culture isn't just one thing. But you have to be here to experience it for yourself.</p></div>
-         <a href="#services" class="btn btn-transparent smooth-scroll letsExplore">Let's Explore</a>
+         <p id='landingP' style={{color: 'white', fontSize: '20px',}}>There’s something inviting about the Cincy Region. Here, Midwest friendliness meets Southern charm. This is where a vibrant urban setting gives way to green spaces and waterways. You can sample our world-famous Cincinnati chili or indulge in innovative, buzzworthy local cuisine. Marvel at cutting-edge street art or travel Northern Kentucky's bourbon trail. Discover a region that reveres history yet pursues constant reinvention. Cincy Culture isn't just one thing. But you have to be here to experience it for yourself.</p></div>
+         <a href="#services" class="btn btn-transparent smooth-scroll letsExplore landingButton"  style={{fontSize: '25px'}} >Let's Explore</a>
      </div>
  
      <div>
@@ -30,19 +30,19 @@ class LandingPage extends Component {
 
 			<div class="col-12 whyCin">
 				<div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-					<h2 style={{color: 'lightgray'}}>Why Cincinnati</h2>
+					<h2 style={{color: 'lightgray', fontSize: '45px'}}>Why Cincinnati</h2>
 					<div class="border"></div>
 				</div>
 			</div>
 
 			
-			<div class="col-md-12 text-center wow fadeInUp" data-wow-duration="500ms">
+			<div class="col-md-12 text-center">
 				<div class="block">
 					 <div class="icon-box">
 						<i class="fa-sharp fa-solid fa-users-line"></i>
 					</div> 
-					<div class="content text-center">
-						<a href="#"><h3 class="ddd" style={{color: 'lightgray'}}>Our Culture</h3></a>
+					<div class="content text-center ourCulture">
+						<h3 class="ddd" style={{color: 'lightgray', fontSize: '35px'}}>Our Culture</h3>
 						<p style={{color: 'white', fontSize: '20px',}}>Cincy is steeped in history, innovation, and creativity. Unearth hidden gems and unique experiences around every corner, from iconic landmarks and Art Deco architecture to renowned art museums, and outdoor murals</p>
 					</div>
 				</div>
@@ -52,8 +52,8 @@ class LandingPage extends Component {
 			
 			<div class="col-md-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
 				<div class="block">
-					<div class="content text-center">
-						<a href="#"><h3 style={{color: 'lightgray'}}>Our Attractions</h3></a>
+					<div class="content text-center ourAttractions">
+						<h3 style={{color: 'lightgray', fontSize: '35px'}}>Our Attractions</h3>
 						<p style={{color: 'white', fontSize: '20px',}}>Uncover our history and stroll under the sea at Newport Aquarium with your family, savor a romantic weekend of unique restaurants, museums, and theater. Cincy has it all and is saving you a front row seat. </p>
 					</div>
 				</div>
@@ -61,11 +61,11 @@ class LandingPage extends Component {
 			
 
 
-			<div class="col-md-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+			<div class="col-md-12 text-center ">
 				<div class="block kill-margin-bottom">
 					
-					<div class="content text-center">
-						<a href="#"><h3  style={{color: 'lightgray'}}>Our Sports</h3></a>
+					<div class="content text-center ourSports">
+						<h3  style={{color: 'lightgray', fontSize: '35px'}}>Our Sports</h3>
 						<p style={{color: 'white',  fontSize: '20px',}}>From the Bengals of the NFL, the Reds of the MLB, FC Cincinnati of the MLS, our beloved Bearcats, as well as all our other amazing collegiate teams, Cincinnati Sports and Entertainment has it all! And we're waiting for you!</p>
 					</div>
 				</div>
@@ -129,10 +129,10 @@ class LandingPage extends Component {
 		<div class="row">
 			<div class="col-md-12 text-center callToActionText">
 				<h2 style={{color: 'lightgray'}} id="homePageBottomSection">Come and visit. <br></br> Stay awhile...</h2>
-				<p style={{color: 'black'}} id="homeBottomP">Start off your day with a stop on the doughnut trail or brunching on the local favorite sausage and oat dish, goetta. Then, there are rock climbing gyms, Top Golf, go-karting tracks, and public parks with biking and hiking trails—endless ways to fill your day with a uniquely Cincy excursion. In the evening, dine at one of our renowned restaurants, or sample locally brewed beer and locally distilled bourbon and spirits. 
+				<p style={{color: 'black', fontSize: '20px'}} id="homeBottomP">Start off your day with a stop on the doughnut trail or brunching on the local favorite sausage and oat dish, goetta. Then, there are rock climbing gyms, Top Golf, go-karting tracks, and public parks with biking and hiking trails—endless ways to fill your day with a uniquely Cincy excursion. In the evening, dine at one of our renowned restaurants, or sample locally brewed beer and locally distilled bourbon and spirits. 
 
 					Whether you’re traveling with little ones or big kids–you’re sure to create unforgettable family memories in Cincy.</p>
-				<a href="contact.html" class="btn btn-main">Take a tour with us</a>
+				<a href="contact.html" class="btn btn-main" style={{fontSize: '25px'}} id="tourButton">Take a Tour with Us</a>
 			</div>
 		</div> 
 	</div>
@@ -141,7 +141,7 @@ class LandingPage extends Component {
 <section style={{backgroundImage: 'url("https://images.unsplash.com/photo-1505319883811-74463eb8c32b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100vw', height: '50px'}}>
 <footer id="footer" class="bg-one">
 	<div class="container">
-		<div class="row wow fadeInUp" data-wow-duration="500ms">
+		<div class="row ">
 			<div class="col-lg-12">
 
 				

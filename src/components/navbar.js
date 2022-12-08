@@ -27,16 +27,16 @@ class navbar extends Component {
               <a style={{color: '#262629'}} class="nav-link" href="./">Home</a>
             </li>
             <li class="nav-item">
-              <a style={{color: '#262629'}} class="nav-link" href="#about">About</a>
+              <a style={{color: '#262629'}} class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a style={{color: '#262629'}} class="nav-link" href="#">Culture & History</a>
+              <a style={{color: '#262629'}} class="nav-link" href="./CultureHistory">Culture & History</a>
             </li>
             <li class="nav-item">
               <a style={{color: '#262629'}} class="nav-link" href="#">Attractions</a>
             </li>
             <li class="nav-item">
-              <a style={{color: '#262629'}} class="nav-link" href="#">Contact</a>
+              <a style={{color: '#262629'}} class="nav-link" href="./Contact">Contact</a>
             </li>
             <li class="nav-item">
               <a style={{color: '#262629'}} class="nav-link" href="./teamPage">Team</a>
