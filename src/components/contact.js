@@ -15,6 +15,10 @@ class Contact extends Component {
 				<div class="contact-details">
 					<div class="con-info clearfix">
 						
+						<span style={{fontSize: '17px', color: 'lightgray'}}> Kable Academy Web Development<br />Fall '22 Cohort</span>
+					</div>
+					<div class="con-info clearfix">
+						
 						<span style={{fontSize: '17px', color: 'lightgray'}}> 4901 Hunt Rd #200, Blue Ash, Ohio, USA</span>
 					</div>
 

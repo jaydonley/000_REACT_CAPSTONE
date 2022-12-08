@@ -132,7 +132,8 @@ margin-top: -40px;
 }
 
 #mainTeam{
-  background-image: linear-gradient(rgba(255, 255, 255, 0.848),rgba(255, 255, 255, 0.55)),  url(https://images.unsplash.com/photo-1528459105426-b9548367069b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1928&q=80);
+  background-image: url(https://media2.citybeat.com/citybeat/imager/u/zoom/14022695/culture_architects_of_air_timisien_at_blink_2022_photo_hailey_bollinger06.jpg?cb=1665668361);
+  background-size: cover;
 }
 
 
