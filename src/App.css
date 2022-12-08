@@ -7,46 +7,15 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 
 .nav-link{
   color: black;
 }
 
-/* body{
-  background-image: url(https://media.istockphoto.com/id/1260306591/photo/cincinnati-downtown.jpg?b=1&s=170667a&w=0&k=20&c=xAHCyo_PnGFs7pBHTs47TlOeIJr-zLW7s5w1PAjKsKA=);
-} */
+
 #landingP{
-  text-shadow: 0px 0px 7px black;
+  text-shadow: 0px 0px 15px black;
 }
 
 .landingButton{
@@ -88,7 +57,7 @@
 }
 
 .mainCin{
-  padding-top: 12%;
+  padding-top: 11%;
 }
 
 .letsExplore{
@@ -140,7 +109,7 @@
 }
 
 #mainContact{
-  background-image: linear-gradient(rgba(255, 255, 255, 0.848),rgba(255, 255, 255, 0.55)), url(https://images.unsplash.com/photo-1587586291914-bdbe84ec1416?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-image:url(https://images.unsplash.com/photo-1529912626516-e58b23f44f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
 
 background-size: cover;
 background-repeat: no-repeat;
@@ -160,4 +129,62 @@ margin-top: -40px;
 #contact-submit{
   font-size: 20px;
   margin: 1rem;
+}
+
+#mainTeam{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.848),rgba(255, 255, 255, 0.55)),  url(https://images.unsplash.com/photo-1528459105426-b9548367069b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1928&q=80);
+}
+
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
 }

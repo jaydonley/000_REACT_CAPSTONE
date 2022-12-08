@@ -1,14 +1,14 @@
 
 import { Link } from 'react-router-dom'
-import { Image } from '../images/AlexisProfilePicture.jpg'
-
+import Alexis from '../images/AlexisProfilePicture.jpg'
+import Kirk from '../images/k4.jpg'
 
 import React, { Component } from 'react'
 
 export default class TeamPage extends Component {
   render() {
 	return (
-	
+	<div id='mainTeam'>
 		<section id="our-team" class="section text-center">
 		<div class="container">
 			<div class="row">
@@ -19,58 +19,58 @@ export default class TeamPage extends Component {
 						<div class="border"></div>
 					</div>
 				</div>
+
+				<div class="row">
+  <div class="column">
+    <div class="card">
+      
+      <div class="container">
+		<img src={Alexis} alt="Alexis" />
+        <h2>Alexis Flowers</h2>
+        <p class="title">Web Developer</p>
+        <p>Kable Academy Web Development Fall '22</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      
+      <div class="container">
+	  <img src={Kirk} alt="Kirk" />
+	  <h2>Kirk Springs</h2>
+        <p class="title">Web Developer</p>
+        <p>Kable Academy Web Development Fall '22</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      
+      <div class="container">
+        <h2>Jason Donley</h2>
+        <p class="title">Web-Developer/Designer</p>
+        <p>Kable Academy Web Development Fall '22</p>
+        <p>jay.donley@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 				
-				<div class="col-lg-4 col-md-6">
-					<div class="team-member">
-						<div class="member-photo">
-							
-							<img src="images/team/AlexisProfilePicture.jpg" alt="Meghna"/>
-						
-						 <div class="member-meta">
-							<h4 class="h5">Alexis Flowers</h4>
-							<span>Team Member</span>
-							<p>Kable Academy Web Development Cohort Fall '22</p>
-						</div> 
-					
-	
-					
 				
-				
-				<div class="col-lg-4 col-md-6 >
-					<div class="team-member >
-						<div class="member-photo">
-							
-							<img class="img-fluid" src="images/team/k3.jpg" alt="Meghna"/>
-							
-							 
-	
-						
-						<div class="member-meta">
-							<h4 class="h5">Kirk Springs</h4>
-							<span>Team Member</span>
-							<p>Kable Academy Web Development Cohort Fall '22</p>
-						
-						
-					</div>
-				
-	
-				<div class="col-lg-4 col-md-6 ">
-					<div class="team-member">
-						<div class="member-photo">
-							<img class="img-fluid" src="images/team/teamSectionProfilePicture.jpg" alt="Meghna"/>
-	
-							
-						<div class="member-meta">
-							<h4 class="h5">Jason Donley</h4>
-							<span>Team Member</span>
-							<p>Kable Academy Web Development Cohort Fall '22</p>
-						</div> 
-					</div>
-				</div>
 				</div>
 			</div> 
-		</div> </div></div></div></div></div>
-		</section>
+		</section></div>
 	
 			
 

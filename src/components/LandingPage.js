@@ -5,14 +5,10 @@ class LandingPage extends Component {
         return (
 		
 
-<section className="hero-area overlay" style={{backgroundImage: 'url("https://media.istockphoto.com/id/1260306591/photo/cincinnati-downtown.jpg?b=1&s=170667a&w=0&k=20&c=xAHCyo_PnGFs7pBHTs47TlOeIJr-zLW7s5w1PAjKsKA=")',backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100vw', height: '100vh', marginTop: '-50px'}}>
+<section className="hero-area overlay landingPhoto" style={{backgroundImage: 'url("https://media.istockphoto.com/id/1260306591/photo/cincinnati-downtown.jpg?b=1&s=170667a&w=0&k=20&c=xAHCyo_PnGFs7pBHTs47TlOeIJr-zLW7s5w1PAjKsKA=")',backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100vw', height: '100vh', marginTop: '-50px'}}>
  	
      <div className="block">
-         <div className="video-button mb-5">
-             <a className="popup-video" href="https://youtu.be/8SHPzcx596A">
-                 <i className="tf-ion-play"></i>
-             </a>
-         </div>
+        
          <h1 className='mainCin' style={{color: '#262629',  fontSize: '70px'}}>Cincinnati</h1>
         <h2 style={{color: '#262629', fontSize: '50px'}}>Where You Belong</h2>
         <div style={{marginTop: '5%', marginLeft: '10%', marginRight: '10%'}}>
@@ -87,8 +83,8 @@ class LandingPage extends Component {
 			</div>
 			<div class="col-lg-6">
 				<div class="content-block dd3block">
-					<h2 style={{color: 'gray'}}>Diverse & Dynamic</h2>
-					<p  style={{color: 'lightgray', padding: '2%'}}>The City of Cincinnati is home to 52 diverse, vibrant neighborhoods, each with its own charm and story. Breathtaking views, historic houses, pastoral-like peacefulness, eccentric arts, and so much more – Cincinnati neighborhoods really do have something for everyone.</p>
+					<h2 style={{color: 'gray', fontSize: '35px'}}>Diverse & Dynamic</h2>
+					<p  style={{color: 'lightgray', padding: '2%', fontSize: '20px'}}>The City of Cincinnati is home to 52 diverse, vibrant neighborhoods, each with its own charm and story. Breathtaking views, historic houses, pastoral-like peacefulness, eccentric arts, and so much more – Cincinnati neighborhoods really do have something for everyone.</p>
 					
 					<div class="row">
 						<div class="col-md-6">
@@ -97,8 +93,8 @@ class LandingPage extends Component {
 									
 								</div>
 								<div class="media-body">
-									<h4  style={{color: 'gray'}} class="media-heading">Our History</h4>
-									<p style={{color: 'lightgray'}}>In 1788, Israel Ludlow, Matthias Denman, and Robert Patterson purchased eight hundred acres from John Cleves Symmes along the Ohio River at the Licking River's mouth. Symmes had purchased two million acres of land from the Confederation Congress in 1787.</p>
+									<h4  style={{color: 'gray', fontSize: '30px'}} class="media-heading">Our History</h4>
+									<p style={{color: 'lightgray', fontSize: '20px'}}>In 1788, Israel Ludlow, Matthias Denman, and Robert Patterson purchased eight hundred acres from John Cleves Symmes along the Ohio River at the Licking River's mouth. Symmes had purchased two million acres of land from the Confederation Congress in 1787.</p>
 								</div>
 							</div>
 						</div>
@@ -108,8 +104,8 @@ class LandingPage extends Component {
 									
 								</div>
 								<div class="media-body">
-									<h4  style={{color: 'gray'}} class="media-heading">Our Future</h4>
-									<p  style={{color: 'lightgray'}}>Cincinnati's diversified economic base includes manufacturing, wholesale and retail trade, insurance and finance, education and health services, government, and transportation. And Ten Fortune 500 companies have established headquarters in Cincinnati.
+									<h4  style={{color: 'gray', fontSize: '30px'}} class="media-heading">Our Future</h4>
+									<p  style={{color: 'lightgray', fontSize: '20px'}}>Cincinnati's diversified economic base includes manufacturing, wholesale and retail trade, insurance and finance, education and health services, government, and transportation. And Ten Fortune 500 companies have established headquarters in Cincinnati.
 									</p>
 								</div>
 							</div>
