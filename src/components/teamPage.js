@@ -1,7 +1,7 @@
 
 import { Link } from 'react-router-dom'
 import Alexis from '../images/AlexisProfilePicture.jpg'
-import Kirk from '../images/k3.jpg'
+import Kirk from '../images/KirkProfilePicture111.png'
 import Jason from '../images/teamSectionProfilePicture.jpg'
 
 import React, { Component } from 'react'
