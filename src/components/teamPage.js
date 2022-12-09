@@ -46,7 +46,7 @@ export default class TeamPage extends Component {
 	  <h2>Kirk Springs</h2>
         <p className="title">Web Developer</p>
         <p>Kable Academy Web Development Fall '22</p>
-        <p>example@example.com</p>
+        <p>Example@KableGroup.com</p>
         
       </div>
     </div>
