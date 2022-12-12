@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import redsImage from '../images/reds.jpg'
-import iceCream from '../images/icecream.jpg'
+import icecream from '../images/icecream.jpg'
 import bengals from '../images/bengals.jpg'
 import chili_1920 from '../images/chili_1920.webp'
 import fc from '../images/fc.jpg'
-import vangohh from '../images/vangogh.jpg'
+import vangogh from '../images/vangogh.jpg'
+import artcenter from '../images/artcenter.jpg'
+import playhouse from '../images/playhouse.jpg'
+import union from '../images/union.jpg'
+import pizza from '../images/pizza.jpg'
 
  
 class Attractions extends Component {
@@ -50,12 +54,12 @@ class Attractions extends Component {
                     </div>
                     <div class="filtr-item col-lg-4 col-md-6" data-category="sports">
                         <div class="portfolio-block">
-                            <img src="./images/bengals.jpg" alt=""/>
+                            <img src={bengals} alt="bengals football team"/>
                             <div class="caption">
-                                <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/bengals.jpg"
+                                {/* <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/bengals.jpg"
                                     data-lightbox="image-1">
                                     <i class="tf-ion-android-search"></i>
-                                </a>
+                                </a> */}
                                 <h4><a href="">The Bengals</a></h4>
                                 <p class="mb-0">WHO-DEY our signature saying for our football team The Bengals</p>
                             </div>
@@ -63,25 +67,22 @@ class Attractions extends Component {
                     </div>
                      <div class="filtr-item col-lg-4 col-md-6" data-category="sports">
                         <div class="portfolio-block">
-                            <img src="images/portfolio/fc.jpg" alt=""/>
+                            <img src={fc} alt="fc football"/>
                             <div class="caption">
-                                <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/fc.jpg"
-                                    data-lightbox="image-1">
-                                    <i class="tf-ion-android-search"></i>
-                                </a>
-                                <h4><a href="">FC Cincinnati</a></h4>
+                               
+                                <h4>>FC Cincinnati</h4>
                                 <p class="mb-0">FC Cincinnati is our first ever soccer team founded in 2018</p>
                             </div>
                         </div>
                     </div>
                     <div class="filtr-item col-lg-4 col-md-6" data-category="art">
                         <div class="portfolio-block">
-                            <img src="images/portfolio/vangogh.jpg" alt=""/>
+                            <img src={vangogh} alt="Van Gogh Art Museum"/>
                             <div class="caption">
-                                <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/vangogh.jpg"
+                                {/* <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/vangogh.jpg"
                                     data-lightbox="image-1">
                                     <i class="tf-ion-android-search"></i>
-                                </a>
+                                </a> */}
                                 <h4><a href="">The Van Gogh Art Museum</a></h4>
                                 <p class="mb-0">The Van Gogh museum was recently opened earlier 2022 to the public to give an art history of the historical painter.</p>
                             </div>
@@ -89,12 +90,12 @@ class Attractions extends Component {
                     </div>
                     <div class="filtr-item col-lg-4 col-md-6" data-category="art">
                         <div class="portfolio-block">
-                            <img src="images/portfolio/artcenter.jpg" alt=""/>
+                            <img src={artcenter} alt="art center"/>
                             <div class="caption">
-                                <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/artcenter.jpg"
+                                {/* <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/artcenter.jpg"
                                     data-lightbox="image-1">
                                     <i class="tf-ion-android-search"></i>
-                                </a>
+                                </a> */}
                                 <h4><a href="">Contemporary Art Center</a></h4>
                                 <p class="mb-0">This art center is one of our most popular art atractions in the Cincinnati area houses art from a lot of local artists best pieces.</p>
                             </div>
@@ -102,12 +103,12 @@ class Attractions extends Component {
                     </div> 
                     <div class="filtr-item col-lg-4 col-md-6" data-category="art">
                         <div class="portfolio-block">
-                            <img src="images/portfolio/playhouse.jpg" alt=""/>
+                            <img src={playhouse} alt="playhouse"/>
                             <div class="caption">
-                                <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/playhouse.jpg"
+                                {/* <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/playhouse.jpg"
                                     data-lightbox="image-1">
                                     <i class="tf-ion-android-search"></i>
-                                </a>
+                                </a> */}
                                 <h4><a href="">Play House In The Park</a></h4>
                                 <p class="mb-0">Our theater provides a live performance of many famous plays and create an immursive feeling for the audience.</p>
                             </div>
@@ -115,12 +116,12 @@ class Attractions extends Component {
                     </div>
                     <div class="filtr-item col-lg-4 col-md-6" data-category="design">
                         <div class="portfolio-block">
-                            <img src="images/portfolio/union.jpg" alt=""/>
+                            <img src={union} alt="union terminal"/>
                             <div class="caption">
-                                <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/union.jpg"
+                                {/* <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/union.jpg"
                                     data-lightbox="image-1">
                                     <i class="tf-ion-android-search"></i>
-                                </a>
+                                </a> */}
                                 <h4><a href="">Union Center Terminal</a></h4>
                                 <p class="mb-0">Union Center Terminal was founded in the 1920's connecting multiple rail lines but over time it eventually became an art museum for the public.</p>
                             </div>
@@ -128,12 +129,12 @@ class Attractions extends Component {
                     </div>
                     <div class="filtr-item col-lg-4 col-md-6" data-category="food">
                         <div class="portfolio-block">
-                            <img src="images/portfolio/icecream.jpg" alt=""/>
+                            <img src={icecream} alt="greaters icecream"/>
                             <div class="caption">
-                                <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/icecream.jpg"
+                                {/* <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/icecream.jpg"
                                     data-lightbox="image-1">
                                     <i class="tf-ion-android-search"></i>
-                                </a>
+                                </a> */}
                                 <h4><a href="">Greaters</a></h4>
                                 <p class="mb-0">Greaters is one of the biggest ice cream franchises in Cincinnati and is home of the black berry raspberry chocolate chip.
                                 </p>
@@ -142,12 +143,12 @@ class Attractions extends Component {
                     </div>
                     <div class="filtr-item col-lg-4 col-md-6" data-category="food">
                         <div class="portfolio-block">
-                            <img src="images/portfolio/pizza.jpg" alt=""/>
+                            <img src={pizza}alt="la'rosa's pizza"/>
                             <div class="caption">
-                                <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/pizza.jpg"
+                                {/* <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/pizza.jpg"
                                     data-lightbox="image-1">
                                     <i class="tf-ion-android-search"></i>
-                                </a>
+                                </a> */}
                                 <h4><a href="">La Rosa's</a></h4>
                                 <p class="mb-0">La Rosa's is our famous local pizzeria founded in 1954 by Buddy Larosa.</p>
                             </div>
