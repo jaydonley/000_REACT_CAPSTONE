@@ -30,7 +30,7 @@ export default class TeamPage extends Component {
 		<img src={Alexis} height={300} width={300}  alt="Alexis"  style={{borderRadius: '50%', border: '3px solid #473636'}} />
         <h2>Alexis Flowers</h2>
         <p class="title">Web Developer</p>
-        <p>Kable Academy Web Development Fall '22</p>
+        <p>Kable Academy <br /> Web Development <br /> Fall '22</p>
         <p>example@example.com</p>
         
       </div>
@@ -45,7 +45,7 @@ export default class TeamPage extends Component {
 	  <img src={Kirk} height={300} width={300}  alt="Kirk"  style={{borderRadius: '50%', border: '3px solid #473636'}} />
 	  <h2>Kirk Springs</h2>
         <p className="title">Web Developer</p>
-        <p>Kable Academy Web Development Fall '22</p>
+        <p>Kable Academy  <br />Web Development <br /> Fall '22</p>
         <p>Example@KableGroup.com</p>
         
       </div>
@@ -58,7 +58,7 @@ export default class TeamPage extends Component {
       <img src={Jason} height={300} width={300} alt="Jason" style={{borderRadius: '50%', border: '3px solid #473636'}} />
         <h2>Jason Donley</h2>
         <p className="title">Web-Developer/Designer</p>
-        <p>Kable Academy Web Development Fall '22</p>
+        <p>Kable Academy  <br />Web Development <br /> Fall '22</p>
         <p>jay.donley@gmail.com</p>
         
       </div>

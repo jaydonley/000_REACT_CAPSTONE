@@ -14,10 +14,10 @@ import portfolio from './components/portfolio';
 import socialLinksAtBottom from './components/socialLinksAtBottom';
 import TeamPage from './components/TeamPage';
 import testimonials from './components/testimonials';
-
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col, Form } from 'react-bootstrap';
+
 
 
 class App extends Component {

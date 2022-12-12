@@ -23,18 +23,18 @@ class Contact extends Component {
 					</div>
 
 					<div class="con-info clearfix">
-						<i class="tf-ion-ios-telephone-outline"></i>
+						
 						<span style={{fontSize: '17px', color: 'lightgray'}}>Phone: (513) 881-2901</span>
 					</div>
 
 					<div class="con-info clearfix">
-						<i class="tf-ion-iphone"></i>
+						
 						<span style={{fontSize: '17px', color: 'lightgray'}}>Fax: 888-555-5556</span>
 					</div>
 
 					<div class="con-info clearfix">
-						<i class="tf-ion-ios-email-outline"></i>
-						<span style={{fontSize: '17px', color: 'lightgray'}}>Email:info@kableacademy.com</span>
+						
+						<span style={{fontSize: '17px', color: 'lightgray'}}>Email: info@kableacademy.com</span>
 					</div>
 				</div>
 			</div>
