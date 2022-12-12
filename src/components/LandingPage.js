@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
- 
+import Footer from '../components/Footer';
+
+
 class LandingPage extends Component {
     render() {
         return (
@@ -134,32 +136,45 @@ class LandingPage extends Component {
 	</div>
 </section>
 
-<section style={{backgroundImage: 'url("https://images.unsplash.com/photo-1505319883811-74463eb8c32b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100vw', height: '50px'}}>
-<footer id="footer" class="bg-one">
-	<div class="container">
-		<div class="row ">
-			<div class="col-lg-12">
 
-				
-				<div class="social-icon">
-					<ul class="list-inline">
-						<li class="list-inline-item"><a href="https://www.facebook.com/places/108303715857333/" target="_blank" ><i class="fa-brands fa-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="https://twitter.com/search?lang=en&q=%23cincinnati" target="_blank" ><i class="tf-ion-social-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="https://youtu.be/nm826jQsE0Q" target="_blank" ><i class="tf-ion-social-youtube"></i></a></li>
-						<li class="list-inline-item"><a href="https://dribbble.com/tags/cincinnati" target="_blank" ><i class="tf-ion-social-dribbble-outline"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.pinterest.com/trishbreedlove/cincinnati-ohio/" target="_blank" ><i class="tf-ion-social-pinterest-outline"></i></a></li>
-					</ul>
-				</div>
-				
-               
-				
+<header id="navigation" class="navigation sticky-centered">
+  <div class="container">
+    <div class="navbar-header w-100">
+      <nav class="navbar navbar-expand-lg navbar-dark px-0">
+        
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbar01">
+          <ul class="navbar-nav navigation-menu ml-auto">
+            <li class="nav-item" >
+              <a style={{color: '#262629'}} class="nav-link" href="./">Home</a>
+            </li>
 
-			</div> 
-		</div> 
-	</div> 
-</footer> 
-</section>
-
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./CultureHistory">Culture & History</a>
+            </li>
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./Attractions">Attractions</a>
+            </li>
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./Sports">Sport Venues</a>
+            </li>
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./Contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./teamPage">Team</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  </header>
 
 
 </section>

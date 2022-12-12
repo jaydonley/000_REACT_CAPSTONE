@@ -6,7 +6,7 @@ import callToAction from './components/callToAction';
 import Contact from './components/Contact';
 import CultureHistory from './components/CultureHistory';
 import diverseDynamic from './components/diverseDynamic';
-import footer from './components/footer';
+
 import header from './components/header';
 import LandingPage from './components/LandingPage';
 import Navbar from './components/Navbar';
@@ -18,6 +18,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col, Form } from 'react-bootstrap';
 import Attractions from './components/attractions';
+import Base from './components/Footer';
+import Footer from './components/Footer';
 
 
 
@@ -34,8 +36,11 @@ class App extends Component {
         <Route path= '/Contact' component={Contact} />
         <Route path= '/Attractions' component={Attractions} />
         
-        <footer/>
+        
+        
+        
        </Router>
+       
        </div>
      
     )

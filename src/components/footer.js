@@ -1,3 +1,10 @@
+import Box from 'react';
+import Row from 'react';
+import Column from 'react';
+import Heading from 'react';
+import FooterLink from 'react';
+import Container from 'react';
+
 const Footer = () => {
 	return (
 	  <Box>

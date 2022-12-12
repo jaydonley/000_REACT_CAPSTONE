@@ -116,6 +116,11 @@ background-repeat: no-repeat;
 margin-top: -40px;
 
 }
+section#services {
+  background-image: url(./images/brick-background.jpg);
+  background-position: center;
+  background-repeat: none;
+}
 header{
   z-index: 99;
 }

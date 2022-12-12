@@ -26,6 +26,7 @@ class navbar extends Component {
             <li class="nav-item" >
               <a style={{color: '#262629'}} class="nav-link" href="./">Home</a>
             </li>
+
             <li class="nav-item">
               <a style={{color: '#262629'}} class="nav-link" href="./CultureHistory">Culture & History</a>
             </li>

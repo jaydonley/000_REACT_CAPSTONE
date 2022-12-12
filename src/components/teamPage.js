@@ -73,7 +73,13 @@ export default class TeamPage extends Component {
 				
 				</div>
 			</div> 
+
+
+
+      
 		</section></div>
+
+    
 	
 			
 
