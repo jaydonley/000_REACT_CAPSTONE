@@ -116,6 +116,9 @@ background-repeat: no-repeat;
 margin-top: -40px;
 
 }
+header{
+  z-index: 99;
+}
 
 .contactDetails{
   margin-left: 25%;

@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
+import redsImage from '../images/reds.jpg'
+import iceCream from '../images/icecream.jpg'
+import bengals from '../images/bengals.jpg'
+import chili_1920 from '../images/chili_1920.webp'
+import fc from '../images/fc.jpg'
+import vangohh from '../images/vangogh.jpg'
+
  
-class portfolio extends Component {
+class Attractions extends Component {
     render() {
         return (
 		
@@ -10,7 +17,7 @@ class portfolio extends Component {
                     <div class="col-lg-12">
                         
                         <div class="title text-center">
-                            <h2>Cul<span class="color">ture</span></h2>
+                            <h2>Attractions</h2>
                             <div class="border"></div>
                         </div>
                         
@@ -30,12 +37,12 @@ class portfolio extends Component {
                 <div class="row mx-auto ">
                     <div class="filtr-item col-lg-4 col-md-6" data-category="sports">
                         <div class="portfolio-block"  >
-                            <img src="images/portfolio/reds.jpg" alt=""/>
+                            <img src={redsImage} alt="reds"/>
                             <div class="caption">
-                                <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/reds.jpg"
-                                    data-lightbox="image-1">
+                                {/* <img class="search-icon image-popup" data-effect="mfp-with-zoom" src="./images/reds.jpg"
+                                    data-lightbox="image-1" /> */}
                                     <i class="tf-ion-android-search"></i>
-                                </a>
+                          
                                 <h4><a href="">Cincinnati Reds</a></h4>
                                 <p class="mb-0">The Cincinnati Reds is our baseball team</p>
                             </div>
@@ -43,7 +50,7 @@ class portfolio extends Component {
                     </div>
                     <div class="filtr-item col-lg-4 col-md-6" data-category="sports">
                         <div class="portfolio-block">
-                            <img src="images/portfolio/bengals.jpg" alt=""/>
+                            <img src="./images/bengals.jpg" alt=""/>
                             <div class="caption">
                                 <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/bengals.jpg"
                                     data-lightbox="image-1">
@@ -152,4 +159,4 @@ class portfolio extends Component {
 );
     }
 }
-export default portfolio;
+export default Attractions;
