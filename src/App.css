@@ -119,6 +119,14 @@ margin-top: -40px;
 #navbar01{
   float: right;
 }
+
+section#portfolio {
+  background-image: url(./images/grey-background.jpg);
+  background-position: center;
+  background-repeat: none;
+}
+
+
 section#services {
   background-image: url(./images/brick-background.jpg);
   background-position: center;
