@@ -101,15 +101,21 @@ const Sport = (props) => {
     <div className="allSports">
       <div className="sportsCard">
         <div className="cardImage">
-          <img style={{maxWidth: '700px', heigth: 'auto'}} className="sportImage" src={props.sport.image} alt="" />
+          <img style={{maxWidth: '700px', heigth: 'auto', border: '5px solid white'}} className="sportImage" src={props.sport.image} alt="" />
         </div>
         <div>
-          <div style={{marginTop: '25px', fontSize: '25px'}} className="text-heading">{props.sport.title}</div>
-          <div style={{marginBottom: '100px', fontSize: '20px', maxWidth: '75%', textAlign: 'center', marginLeft: '20%', marginRight: '20%'}} className='description'>{props.sport.description}</div>
+          <div style={{marginTop: '25px', fontSize: '25px', color: 'white'}} className="text-heading">{props.sport.title}</div>
+          <div style={{marginBottom: '100px', fontSize: '20px', maxWidth: '75%', textAlign: 'center', marginLeft: '20%', marginRight: '20%', color: 'white'}} className='description'>{props.sport.description}</div>
           
         </div>
       </div>
     </div>
+
+
+
+
+
+
   )
 }
 
@@ -143,16 +149,56 @@ export default class Sports extends Component {
 
   render() {
     return (
-      
+      <div>
         <div className="row">
-          <div style={{background}} className="sportsContainer">
-            <h2 className="sportsHeader">Sports Venues</h2>
+          <div style={{backgroundImage:'url("https://images.unsplash.com/photo-1505128640532-a2ce679e8065?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d29vZGVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60")',backgroundPosition: 'center', backgroundSize: 'cover'}} className="sportsContainer">
+            <h2 style={{margin: '50px', color: 'white', fontSize: '40px'}} className="sportsHeader">Sports Venues</h2>
+            <div style={{marginBottom: '80px'}} class="border"></div>
             <div className="sportsInnerContainer">
               {this.sportsList()}
             </div>
           </div>
 
         </div>
+
+        <header id="navigation" class="navigation sticky">
+  <div class="container">
+    <div class="navbar-header w-100">
+      <nav class="navbar navbar-expand-lg navbar-dark px-0">
+        
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbar01">
+          <ul class="navbar-nav navigation-menu ml-auto">
+            <li class="nav-item" >
+              <a style={{color: '#262629'}} class="nav-link" href="./">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./CultureHistory">Culture & History</a>
+            </li>
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./Attractions">Attractions</a>
+            </li>
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./Sports">Sport Venues</a>
+            </li>
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./Contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./teamPage">Team</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  </header></div>
       
     )
   }

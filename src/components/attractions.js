@@ -70,7 +70,7 @@ class Attractions extends Component {
                             <img src={fc} alt="fc football"/>
                             <div class="caption">
                                
-                                <h4>>FC Cincinnati</h4>
+                                <h4>FC Cincinnati</h4>
                                 <p class="mb-0">FC Cincinnati is our first ever soccer team founded in 2018</p>
                             </div>
                         </div>
@@ -155,6 +155,49 @@ class Attractions extends Component {
                         </div>
                     </div>
                 </div>
+
+
+                <header id="navigation" class="navigation sticky">
+  <div class="container">
+    <div class="navbar-header w-100">
+      <nav class="navbar navbar-expand-lg navbar-dark px-0">
+        
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbar01">
+          <ul class="navbar-nav navigation-menu ml-auto">
+            <li class="nav-item" >
+              <a style={{color: '#262629'}} class="nav-link" href="./">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./CultureHistory">Culture & History</a>
+            </li>
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./Attractions">Attractions</a>
+            </li>
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./Sports">Sport Venues</a>
+            </li>
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./Contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a style={{color: '#262629'}} class="nav-link" href="./teamPage">Team</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  </header>
+
+
+
         </section> 
 
 );

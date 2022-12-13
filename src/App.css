@@ -116,6 +116,9 @@ background-repeat: no-repeat;
 margin-top: -40px;
 
 }
+#navbar01{
+  float: right;
+}
 section#services {
   background-image: url(./images/brick-background.jpg);
   background-position: center;
