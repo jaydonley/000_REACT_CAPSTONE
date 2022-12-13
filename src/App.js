@@ -6,7 +6,7 @@ import callToAction from './components/callToAction';
 import Contact from './components/Contact';
 import CultureHistory from './components/CultureHistory';
 import diverseDynamic from './components/diverseDynamic';
-
+import Sports from './components/Sports'
 import header from './components/header';
 import LandingPage from './components/LandingPage';
 import Navbar from './components/Navbar';
@@ -35,7 +35,7 @@ class App extends Component {
         <Route path= '/CultureHistory' component={CultureHistory} />
         <Route path= '/Contact' component={Contact} />
         <Route path= '/Attractions' component={Attractions} />
-        
+        <Route path='/sports' component = {Sports} />
         
         
         

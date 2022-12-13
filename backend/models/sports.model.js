@@ -6,13 +6,13 @@ const Schema = mongoose.Schema;
 
 const sportsSchema = new Schema({
     heading: { type: String},
-    img: {data: Buffer, contentType: String},
+    img: {type: String},
     description: { type: String}
     
 },);
 
 
-const Sports = mongoose.model('Sports', sportsSchema);
+const Sport = mongoose.model('Sport', sportsSchema);
 
 
-module.exports = Sports;
+module.exports = Sport;

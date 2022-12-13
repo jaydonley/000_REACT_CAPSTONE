@@ -18,8 +18,9 @@ connection.once('open', () => {
 })
 
 const ticketRouter = require('./routes/ticket.route');
+const sportsRouter = require('./routes/sports.routes')
 app.use('/ticket', ticketRouter);
-
+app.use('/sports', sportsRouter);
 
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);

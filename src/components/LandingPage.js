@@ -137,7 +137,7 @@ class LandingPage extends Component {
 </section>
 
 
-<header id="navigation" class="navigation sticky-centered">
+<header id="navigation" class="navigation sticky">
   <div class="container">
     <div class="navbar-header w-100">
       <nav class="navbar navbar-expand-lg navbar-dark px-0">
