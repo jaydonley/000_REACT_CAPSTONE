@@ -7,9 +7,9 @@ class LandingPage extends Component {
         return (
 		
 
-<section className="hero-area overlay landingPhoto" style={{backgroundImage: 'url("https://media.istockphoto.com/id/1260306591/photo/cincinnati-downtown.jpg?b=1&s=170667a&w=0&k=20&c=xAHCyo_PnGFs7pBHTs47TlOeIJr-zLW7s5w1PAjKsKA=")',backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100vw', height: '100vh'}}>
+<section className="hero-area overlay landingPhoto img-fluid" >
  	
-     <div className="block">
+     <div className="block img-fluid" style={{backgroundImage: 'url("https://media.istockphoto.com/id/1260306591/photo/cincinnati-downtown.jpg?b=1&s=170667a&w=0&k=20&c=xAHCyo_PnGFs7pBHTs47TlOeIJr-zLW7s5w1PAjKsKA=")',backgroundPosition: 'center', backgroundSize: 'cover',  backgroundRepeat: 'no-repeat'}}>
         
          <h1 className='mainCin' style={{color: '#262629',  fontSize: '70px'}}>Cincinnati</h1>
         <h2 style={{color: '#262629', fontSize: '50px'}}>Where You Belong</h2>
